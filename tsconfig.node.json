@@ -3,7 +3,9 @@
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "es2023",
     "lib": ["ES2023"],
-    "types": ["node"],
+    // Remove explicit "types" entry to let the compiler resolve installed @types automatically.
+    // If you still need it, install @types/node: npm install -D @types/node
+    
     "skipLibCheck": true,
 
     /* Bundler mode */

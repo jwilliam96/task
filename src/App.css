@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+
+    /* Primary */
+
+    /* text-active */
+    --Blue-500: oklch(61.344% 0.20542 262.224);
+    --Check-Background: linear-gradient hsl(192, 100%, 67%) to oklch(65.549% 0.23148 312.661);
+
+    /* Light Theme */
+
+    /*bg-secondary */
+    --Gray-50: oklch(98.511% 0.00011 271.152);
+    /*border-circle */
+    --Purple-300: oklch(85.445% 0.0376 280.527);
+    --Gray-300: oklch(86.844% 0.0111 280.374);
+
+    /*text-secondary */
+    --Gray-600: oklch(67.13% 0.02503 282.995);
+    /*text-primary */
+    --Navy-850: oklch(42.33% 0.05163 279.67);
+
+    /* Dark Theme */
+
+    --Navy-950: oklch(20.896% 0.02184 280.284);
+    --Navy-900: oklch(28.089% 0.03873 279.402);
+    --Purple-300: oklch(85.445% 0.0376 280.527);
+    --Purple-100-hover: oklch(92.465% 0.01632 282.197);
+    --Purple-600: oklch(49.556% 0.05121 280.183);
+    --Purple-700: oklch(43.728% 0.03646 278.704);
+    --Purple-800: oklch(35.505% 0.03119 282.188);
+    --Gray-600: oklch(67.13% 0.02503 282.995);
+
+}
+
+@theme {
+    --color-app-bg-secondary: oklch(98.511% 0.00011 271.152);
+    --color-app-border-circle: oklch(86.844% 0.0111 280.374);
+    --color-app-text-primary: oklch(42.33% 0.05163 279.67);
+    --color-app-text-secondary: oklch(67.13% 0.02503 282.995);
+    --color-app-text-active: oklch(61.344% 0.20542 262.224);
+}
+
+.dark {}
